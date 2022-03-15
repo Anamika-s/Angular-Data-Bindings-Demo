@@ -1,0 +1,34 @@
+<h1> WIthin 11111111111 the temp file </h1>
+
+<h2> Hello {{name}}   </h2>
+<h3> {{2+5}}</h3>
+
+<b> Welcome : {{name}} </b>
+
+<b> {{name.length}}</b>
+
+<b> {{name.toUpperCase()}}</b>
+
+{{method1()}}
+
+{{status}}
+
+ My application status is {{status?"Online":"Offline"}}
+ 
+ <img [src] ="image1" width="100px" height="100px"/>
+ <input [value]='name'/>
+ <p [innerHTML]='name'> </p>
+
+ <h1> Event Binding </h1>
+
+ <button (click)="call()"> Click here  </button>
+
+ <div (click)="onDivClick()">  
+    Hello
+    <button (click)="onSave($event)">Save</button>  <!-- Event Binding -->  
+ </div> 
+
+
+ <input type="text" (keypress) ="onKeyPress($event)"/>
+
+  
