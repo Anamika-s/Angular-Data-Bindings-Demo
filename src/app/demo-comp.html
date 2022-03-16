@@ -1,0 +1,43 @@
+demo content works
+
+<input type="text" value="{{name}}"/>
+
+<input type="text" [value]="name"/>
+
+<input type="text" bind-value="name"/>
+
+Disabled
+<input type="text" disabled [value]="name"/>
+
+<input type="text" disabled="true" [value]="name"/>
+
+<input type="text" disabled="false" [value]="name"/>
+
+<input type="text" disabled={{isDisabled}} [value]="name"/>
+
+<input type="text" [disabled]="isDisabled" [value]="name"/>
+
+
+Hidden
+<input type="text" hidden [value]="name"/>
+
+<input type="text" hidden="true" [value]="name"/>
+
+<input type="text" hidden="false" [value]="name"/>
+
+<input type="text" hidden={{isDisabled}} [value]="name"/>
+
+<input type="text" [hidden]="isDisabled" [value]="name"/>
+
+
+<input type="text" [disabled]="isDisabled" [value]="isDisabled?Status1:Status2"/>
+
+
+Template Reference Value
+<input type="text" ename="nam" #text1 value="Hello"/>
+<button (click)="Call(text1)"> Click </button>
+ 
+
+
+
+

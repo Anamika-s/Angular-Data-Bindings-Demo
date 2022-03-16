@@ -8,20 +8,23 @@ import { ThirdCompComponent } from './third-comp/third-comp.component';
   
 import { SomeNameComponent } from './myfolder/some-name/some-name.component';
 import {FormsModule } from '@angular/forms';
+import { DemoComponent } from './demo-comp';
+import { Directive1Component } from './directive1-comp';
 @NgModule({
   declarations: [
     AppComponent,
     FirstCompComponent,
     SecondComponent,
     ThirdCompComponent,
-   
-    SomeNameComponent
+    DemoComponent,
+    SomeNameComponent,
+    Directive1Component
   ],
   imports: [
     BrowserModule
     , FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [SecondComponent]
 })
 export class AppModule { }

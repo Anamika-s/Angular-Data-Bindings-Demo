@@ -1,0 +1,37 @@
+
+<!-- <div *ngIf="rec.length>0">
+<h1> List of Students </h1>
+<table>
+  <tr>
+    <th> Name </th>
+    <th> Marks  </th>
+    <th> Profile pic </th>
+    
+  </tr>
+  <tr *ngFor="let x of rec">
+    <td>{{x.name}}</td>
+    <td>{{x.marks}}</td>
+    <td><img [src]="x.img"/></td>
+  </tr>
+</table> 
+</div> -->
+
+
+<div *ngIf="rec.length>0">
+  <h1> List of Students </h1>
+  <table>
+    <tr>
+      <th> S.No </th>
+      <th> Name </th>
+      <th> Marks  </th>
+      <th> Profile pic </th>
+      
+    </tr>
+    <tr *ngFor="let x of rec;even as I">
+      <td>{{I}} </td>
+      <td>{{x.name}}</td>
+      <td>{{x.marks}}</td>
+      <td><img [src]="x.img" height="100px" width="100px"/></td>
+    </tr>
+  </table> 
+  </div>

@@ -1,0 +1,27 @@
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+.myClass
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: green;
+}
+
+.class1
+{
+   background-color: green;
+}
+.class2 
+{
+  font-weight: 400;
+  color: blue;
+
+}
+.class3 
+{
+  border: 10px dotted yellow;
+}
